@@ -14,15 +14,15 @@ export default function AboutComponent() {
 					based in Auckland NZ. I have a passion for building software,
 					specifically blockchain tech such as smart contracts and decentralised
 					applications. I'm fascinated by how this emerging technology can be
-					used to solve problems as well as create many opportunities. I want to
-					innovate and contribute to this field and have the opportunity to
-					further develop my skills in order to produce high-quality solutions
-					to real-world problems.
+					used to solve problems as well as create limitless opportunities. My
+					ambition is to innovate and contribute to this field and have the
+					opportunity to further develop my skills in order to produce
+					high-quality solutions to real-world problems.
 				</div>
 				<div className="mt-5 sm:mt-1">
 					Take a look at my{" "}
 					<a
-						href="https://drive.google.com/file/d/1hHOpaFgxa5p4ge8Z1dxcuEHyEcphXfqL/view?usp=sharing"
+						href="https://drive.google.com/file/d/1YPeLBq4xHHjmJbYNDBjZHSpFeBR0Yyhy/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -46,8 +46,8 @@ export default function AboutComponent() {
 				<div className="mt-5">Technologies:</div>
 				<div>
 					Solidity, Ethers.js, React.js, Typescript, Javascript, Redux, HTML,
-					CSS, SASS, Tailwind, Node.js, Express.js, MongoDB, Mongoose, Python,
-					Hardhat, Git
+					CSS, SASS, Tailwind, Node.js, Express.js, SQL, Postgres, MongoDB,
+					Mongoose, Python, Hardhat, Git
 				</div>
 
 				<div className=" text-5xl sm:text-6xl mt-10">;</div>

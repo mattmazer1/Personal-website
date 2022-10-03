@@ -8,6 +8,7 @@ import img4 from "../Images/pricebetSite.jpg";
 import img5 from "../Images/stakingSite.jpg";
 import img6 from "../Images/mintingSite.jpg";
 import img7 from "../Images/personalSite.jpg";
+import img8 from "../Images/contractSite.jpg";
 
 export default function PortfolioComponent() {
 	return (
@@ -27,7 +28,43 @@ export default function PortfolioComponent() {
 			<div className="flex flex-row flex-wrap justify-center items-center content-center mt-8 sm:mt-topPo sm:ml-5 sm:mr-5">
 				<div className="block text-white p-6 rounded-lg shadow-lg bgMulti w-64 h-cardHs sm:w-80 sm:h-cardH ml-4 mr-4 mb-10">
 					<div className=" flex flex-col items-center text-base mb-4">
+						<h1 className=" text-lg sm:text-xl mb-4">Create a contract</h1>
+
+						<img src={img8} alt="Make-contract-site" height={200} width={200} />
+						<p className="text-xs sm:text-sm mt-4 mb-4 ml-5 mr-5 text-center">
+							A dapp for settling smart contracts from service providers to
+							clients. This reinforces trust and safety against scams and bad
+							actors.
+						</p>
+
+						<div className="flex flex-row absolute mt-buttonsT">
+							<a
+								href="https://service-contract.netlify.app/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button className="cardButton mr-2 text-xs sm:text-sm">
+									Site
+								</button>
+							</a>
+
+							<a
+								href="https://github.com/mattmazer1/Make-a-contract"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button className="cardButton ml-2 text-xs sm:text-sm">
+									Code
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div className="block text-white p-6 rounded-lg shadow-lg bgMulti w-64 h-cardHs sm:w-80 sm:h-cardH ml-4 mr-4 mb-10">
+					<div className=" flex flex-col items-center text-base mb-4">
 						<h1 className=" text-lg sm:text-xl mb-4">Options trading dapp</h1>
+
 						<img src={img1} alt="Options-site" height={200} width={200} />
 						<p className="text-xs sm:text-sm mt-4 mb-4 ml-5 mr-5 text-center">
 							A site where you can trade pre-funded options on the price of Eth.

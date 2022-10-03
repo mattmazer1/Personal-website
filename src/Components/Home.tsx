@@ -116,7 +116,7 @@ export default function HomeComponents() {
 
 				<BrowserView>
 					<a
-						href="https://drive.google.com/file/d/1hHOpaFgxa5p4ge8Z1dxcuEHyEcphXfqL/view?usp=sharing"
+						href="https://drive.google.com/file/d/1YPeLBq4xHHjmJbYNDBjZHSpFeBR0Yyhy/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -132,7 +132,7 @@ export default function HomeComponents() {
 
 				<MobileView>
 					<a
-						href="https://drive.google.com/file/d/1hHOpaFgxa5p4ge8Z1dxcuEHyEcphXfqL/view?usp=sharing"
+						href="https://drive.google.com/file/d/1YPeLBq4xHHjmJbYNDBjZHSpFeBR0Yyhy/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

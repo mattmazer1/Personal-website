@@ -25,9 +25,9 @@ export default function App() {
 				<SuccessContext.Provider value={{ showSuccess, setShowSuccess }}>
 					<Routes>
 						<Route path="/" element={<Home />} />
-						<Route path="/about" element={<About />} />
-						<Route path="/contact" element={<Contact />} />
-						<Route path="/portfolio" element={<Portfolio />} />
+						{/* <Route path="/about" element={<About />} /> */}
+						{/* <Route path="/contact" element={<Contact />} /> */}
+						{/* <Route path="/portfolio" element={<Portfolio />} /> */}
 					</Routes>
 				</SuccessContext.Provider>
 			</ErrorContext.Provider>

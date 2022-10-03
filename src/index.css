@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		background: linear-gradient(200deg, #003, #321);
+		@apply text-white;
+		@apply font-sans;
+	}
+}
+
+@layer components {
+	.bounce {
+		@apply active:translate-y-0.5;
+	}
+
+	.iconsBase {
+		@apply bg-orange-600 rounded-full h-baseSmh w-baseSmw sm:h-12 sm:w-12 flex justify-center items-center ml-exact mr-exact sm:ml-5 sm:mr-5 cursor-pointer;
+	}
+
+	.borderA {
+		@apply h-12 w-52 border-2 text-center flex justify-center items-center ml-4 mr-4 mb-10 py-12 px-8 border-orange-500 hover:text-orange-400 hover:border-white;
+	}
+
+	.buttonBase {
+		@apply bg-indigo-700 mt-1 rounded-lg px-3 py-1 hover:bg-indigo-800 text-white bounce;
+	}
+
+	.cardButton {
+		@apply bg-orange-500 px-3 py-1 w-14 bounce hover:bg-orange-600;
+	}
+
+	.formBody {
+		@apply block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+	}
+
+	.submitButton {
+		@apply w-full
+		px-6
+		py-2.5
+		bg-blue-600
+		text-white
+		font-medium
+		text-xs
+		leading-tight
+		uppercase
+		rounded
+		shadow-md
+		hover:bg-blue-700 hover:shadow-lg
+		focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+		active:bg-blue-800 active:shadow-lg
+		transition
+		duration-150
+		ease-in-out bounce;
+	}
+}
+
+.bgMulti {
+	background: linear-gradient(200deg, #003, #321);
+}
+
+.glow:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+html {
+	min-height: 100%;
+}
+
+#on {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#off {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 300ms, opacity 300ms;
+}
